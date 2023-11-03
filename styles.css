@@ -432,6 +432,14 @@ main .main-rigth{
        display: block;
     }
 
+    .card-video:hover .settings{
+        display: none;
+    }
+    
+    .card-video:hover .play{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
