@@ -432,11 +432,11 @@ main .main-rigth{
        display: block;
     }
 
-    .card-video:hover .settings{
+    .card-video:hover .settings ,.card-video:active .settings, .card-video:focus .settings{
         display: none;
     }
     
-    .card-video:hover .play{
+    .card-video:hover .play, .card-video:active .play, .card-video:focus .play{
         display: none;
     }
 
